@@ -26,7 +26,7 @@ class Song
     self.new(name)
   end
 
-=begin  def artist=(artist)
+  def artist=(artist)
     if @artist == nil
       @artist = artist
     else
@@ -46,6 +46,5 @@ class Song
   def genre
     @genre
   end
-=end
 
 end
