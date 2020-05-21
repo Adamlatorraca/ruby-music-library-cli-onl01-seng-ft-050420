@@ -24,4 +24,6 @@ class Genre
     new_genre.save
   end
 
+  
+
 end
