@@ -37,4 +37,8 @@ class Artist
     songs << song unless songs.include?(song)
   end
 
+  def genres
+    Genre.all.collect do |genre|
+      genre.artist == self
+
 end
