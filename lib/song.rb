@@ -45,7 +45,7 @@ class Song
     if self.find_by_name(name) == false
        self.create(name)
     else
-      name
+      @name
     end
   end
 
