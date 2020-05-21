@@ -28,15 +28,6 @@ class Artist
   end
 
   def songs
-    Song.all.collect do |song|
-      song.artist = self
-    end
-  end
-
-  def add_song(song)
-    song.artist = self
-    @songs << song
-    unless @songs.include?(song)
-    end
+    @songs
   end
 end
