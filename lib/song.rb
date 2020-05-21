@@ -66,4 +66,5 @@ class Song
     artist = Artist.create(artist)
 
     new(name, artist, genre)
+  end
 end
