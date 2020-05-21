@@ -3,7 +3,7 @@ class Song
   attr_reader :artist
   @@all = []
 
-  def initialize(name)
+  def initialize(name, artist=nil)
     @name = name
     @@all << self
   end
