@@ -30,7 +30,7 @@ class Genre
   end
 
   def add_song(song)
-    song.artist = self unless song.artist
+    song.genre = self unless song.genre
     songs << song unless songs.include?(song)
   end
 
