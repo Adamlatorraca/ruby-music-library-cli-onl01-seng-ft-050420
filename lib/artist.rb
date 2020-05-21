@@ -40,5 +40,7 @@ class Artist
   def genres
     Genre.all.collect do |genre|
       genre.artist == self
+    end
+  end
 
 end
