@@ -28,7 +28,8 @@ class Artist
   end
 
   def songs
-    self.songs
+    Song.all.select do |song|
+      song.artist
   end
 
   def add_song(song)
