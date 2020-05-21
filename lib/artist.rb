@@ -27,17 +27,5 @@ class Artist
     self.new(name)
   end
 
-  def songs
-    Song.all.select do |song|
-      song.artist
-    end
-  end
-
-  def add_song(song)
-    if self.songs.include?(song) == false && song.artist != self
-      song.artist = self
-      @songs << song
-    end
-  end
 
 end
