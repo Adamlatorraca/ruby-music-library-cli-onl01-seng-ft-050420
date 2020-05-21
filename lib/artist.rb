@@ -26,7 +26,7 @@ class Artist
     self.new(name)
   end
 
-  def add_song
+  def add_song(song)
     song.artist = self
     #@songs << song
     # if song is included in @songs do nothing
