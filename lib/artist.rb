@@ -30,5 +30,5 @@ class Artist
     song.artist = self
     @songs << song
     unless @songs.include?(song)
-    # if song is included in @songs do nothing
+  end
 end
