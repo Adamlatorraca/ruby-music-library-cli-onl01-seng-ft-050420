@@ -54,8 +54,5 @@ class Song
     new_song
   end
 
-  def add_song(song)
-    self.artist = song unless song.artist
-    songs << song unless songs.include?(song)
-  end
+
 end
