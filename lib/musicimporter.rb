@@ -4,5 +4,6 @@ class MusicImporter
 
   def initialize(filename)
     @filename = filename
+    @files = []
     @@all << self
   end
