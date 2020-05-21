@@ -46,7 +46,7 @@ class Song
       @name
     else
       self.create(name)
-  end
+    end
   end
 
 end
