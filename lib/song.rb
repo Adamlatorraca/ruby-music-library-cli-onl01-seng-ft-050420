@@ -31,12 +31,12 @@ class Song
 
   def artist=(artist)
     @artist = artist
-    self.artist.add_song(self)
+    self.artist.create(self)
   end
 
   def genre=(genre)
     @genre = genre
-    self.genre.add_song(self)
+    self.genre.create(self)
   end
 
   def self.find_by_name(name)
