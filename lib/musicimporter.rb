@@ -12,6 +12,6 @@ class MusicImporter
   end
 
   def import(filename)
-    imported = Song.create_from_filename(filename)
+    @files = Song.create_from_filename(filename)
   end
 end
