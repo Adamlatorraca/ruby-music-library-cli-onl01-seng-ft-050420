@@ -7,9 +7,6 @@ class MusicImporter
     @@all << self
   end
 
-  def path
-    self.path
-  end
 
   def files
 
