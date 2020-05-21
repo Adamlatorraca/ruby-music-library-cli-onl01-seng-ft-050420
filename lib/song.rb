@@ -66,5 +66,6 @@ class Song
     artist = Artist.create(artist)
 
     new_from_filename(name, artist, genre)
+    save
   end
 end
